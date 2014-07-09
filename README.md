@@ -21,6 +21,7 @@ That's private project about backbone and node
 +Set up environment frontend (backbone) :
 
   - Install nvm (node version manager):
+
       step 1:
         git clone git://github.com/creationix/nvm.git ~/.nvm
 
