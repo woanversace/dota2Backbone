@@ -4,19 +4,25 @@ dota2Backbone
 That's private project about backbone and node
 
 -----------ALL command process on main's projects folder------------
+
 +Setup vagrant environment:
 
 - Install vagrant via https://www.vagrantup.com/downloads.html
+
 - Vagrant up with command :
 
   step 1:
     vagrant box add backbone  http://files.vagrantup.com/precise64.box
+
   step 2:
     vagrant init backbone
+
   step 3:
     vagrant up
+
   step 4:
     vagrant ssh
+
 
 +Set up environment frontend (backbone) :
 
@@ -46,11 +52,13 @@ That's private project about backbone and node
   --------------------------
 
   - Install gem compass
+
       Please view http://compass-style.org/install/
 
   ---------------------------
 
   - Install Grunt:
+
       step 1:
         $ cd /vagrant/frontend/
 
